@@ -10,8 +10,8 @@ getgenv().Configs = {
     ["Soul Guitar"] = true,
     ["Find Fruit"] = false, -- Will find 1m+ fruit to unlock swan door to access third sea
     ["Cursed Dual Katana"] = true
-    namescript = "GAYHUB",--Tên Script
-    logoscript = "108335283516930",--ID Logo Script
-    tacgia = "Tuan Kiet"-- Tên Tác Giả
+    ["namescript"] = "GAYHUB",--Tên Script
+    ["logoscript"] = "108335283516930",--ID Logo Script
+    ["tacgia"] = "Tuan Kiet"-- Tên Tác Giả
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/refs/heads/main/kaitun.lua"))()
